@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Recordatorios</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Lista de Recordatorios</h1>
+    <div>
+      <label for="reminder">Nuevo Recordatorio:</label>
+      <input type="text" id="reminder" />
+      <label for="color">Color:</label>
+      <select id="color">
+        <option value="red">Rojo</option>
+        <option value="yellow">Amarillo</option>
+        <option value="green">Verde</option>
+      </select>
+      <button onclick="addReminder()">Agregar</button>
+    </div>
+    <ul id="reminderList"></ul>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
